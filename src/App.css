@@ -1,5 +1,37 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./assets/WorkSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Andika New';
+  src: url('./assets/AndikaNewBasic-Regular.ttf') format('truetype');
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 0;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -35,4 +67,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
 }
