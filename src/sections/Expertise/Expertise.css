@@ -1,0 +1,16 @@
+.expertise-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  height: 100vh;
+}
+
+.expertise-title {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 48px;
+  letter-spacing: 8px;
+  color: #fff;
+  margin-bottom: 5%;
+}

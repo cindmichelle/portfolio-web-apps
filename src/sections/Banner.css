@@ -1,0 +1,46 @@
+.text {
+  font-size: 96px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-wrapper {
+  overflow: hidden;
+}
+.text-wrapper {
+  flex-direction: 'column';
+  align-self: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-yellow {
+  color: #fede64;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .text-wrapper {
+    animation: translate-text forwards 1s;
+  }
+}
+
+@keyframes translate-text {
+  from {
+    transform: translateY(600px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}

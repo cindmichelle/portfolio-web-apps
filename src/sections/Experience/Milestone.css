@@ -1,0 +1,82 @@
+.milestones-root {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.empty-box {
+  display: flex;
+  flex: 1;
+}
+
+.stone-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.stone {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #f6eed5;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.line {
+  background-color: salmon;
+  width: 8px;
+  height: 240px;
+}
+
+.info-cont {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: -1%;
+}
+
+.info-cont:hover {
+  transform: scale(1.05);
+}
+
+.pos-left {
+  align-items: flex-start;
+}
+
+.pos-right {
+  align-items: flex-end;
+}
+
+.stone-time-range {
+  font-family: 'Andika New';
+  font-size: 18px;
+  margin-bottom: 8px;
+  letter-spacing: 1.5px;
+  color: #fbbc58;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.stone-company {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.stone-position {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: salmon;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.stone-desc {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: justify;
+}
