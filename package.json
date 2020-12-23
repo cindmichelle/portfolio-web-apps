@@ -20,6 +20,7 @@
     "eslint": "^7.12.1",
     "eslint-config-kodefox": "^0.3.0",
     "prettier": "^2.1.2",
+    "react-icons": "^4.1.0",
     "react-scripts": "4.0.0",
     "typescript": "^4.0.5"
   },

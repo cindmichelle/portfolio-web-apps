@@ -8,6 +8,11 @@
   src: url('./assets/AndikaNewBasic-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Garamond';
+  src: url('./assets/CormorantGaramond-Italic.ttf') format('truetype');
+}
+
 h1 {
   margin: 0;
   padding: 0;

@@ -7,6 +7,7 @@ import Expertise from './sections/Expertise/Expertise';
 import background from './assets/background.png';
 import './App.css';
 import Experience from './sections/Experience/Experience';
+import Contacts from './sections/Contacts/Contacts';
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
         <Expertise />
         <Experience />
       </Parallax>
-      <div style={{ height: 1000, backgroundColor: '#CED' }} />
+      <Contacts />
     </div>
   );
 }
